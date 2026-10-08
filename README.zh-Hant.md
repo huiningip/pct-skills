@@ -1,16 +1,35 @@
-🌐 [简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
+<sub>🌐 <a href="README.md">简体中文</a> · <b>繁體中文</b> · <a href="README.en.md">English</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ar.md">العربية</a> · <a href="README.ja.md">日本語</a> · <a href="README.ru.md">Русский</a></sub>
+
+<div align="center">
+
+<img src="logo.png" alt="輝寧智慧財產權 Hui Ning IP" width="150">
 
 # PCT Skills · PCT 專利實務技能集
 
 > *「一句話問清程序，拿回一份能直接用的 PCT 實務方案。」*
 > *"Ask once. Get a filing-ready PCT practice answer."*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](#裝上就能用)
+[![PCT Members](https://img.shields.io/badge/PCT%20Members-159-green)](https://www.wipo.int/treaties/en/registration/pct/)
+![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
 
-一個面向**涉外專利代理師、企業 IPR 與涉外申請人**的 PCT 國際申請全流程實務技能集（母技能 + 5 個子技能）。不是科普問答，而是：流程與期限的檢查路徑、逐條可核的法源依據、檢索與審查結論的解讀方法、國家階段進入與恢復的手續方案。
+<br>
+
+**一個面向涉外專利代理師、企業 IPR 與涉外申請人的 PCT 國際申請全流程實務技能集（母技能 + 5 個子技能）。**
+
+<br>
+
+不是科普問答，而是：流程與期限的檢查路徑、逐條可核的法源依據、檢索與審查結論的解讀方法、國家階段進入與恢復的手續方案。
 
 技能遵循通用 Agent Skills 格式（`<skill-name>/SKILL.md`），支援 skills 的 agent 均可使用。
+
+[能做什麼](#能做什麼) · [裝上就能用](#裝上就能用) · [核心機制](#核心機制) · [倉庫結構](#倉庫結構) · [能力邊界](#能力邊界)
+
+</div>
+
+---
 
 ## 裝上就能用
 
@@ -67,8 +86,16 @@ PCT-SKILLS/
 │   └── pct-administrative/
 ├── scripts/
 │   └── sync_to_local.py       # 一鍵同步到本機技能目錄
-├── README.md
-└── LICENSE
+├── README.md                        # 简体中文（默认）
+├── README.zh-Hant.md                # 繁體中文（本檔案）
+├── README.en.md                     # English
+├── README.fr.md                     # Français
+├── README.es.md                     # Español
+├── README.ar.md                     # العربية（RTL）
+├── README.ja.md                     # 日本語
+├── README.ru.md                     # Русский
+├── LICENSE                          # MIT 授權條款
+└── logo.png                         # 品牌標識（README 首屏）
 ```
 
 - 技能目錄嚴格 **2 級**（`SKILL.md` + `references/`），符合 WorkBuddy 官方技能結構規範；

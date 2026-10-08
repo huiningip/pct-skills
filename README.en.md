@@ -1,16 +1,35 @@
-🌐 [简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
+<sub>🌐 <a href="README.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <b>English</b> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ar.md">العربية</a> · <a href="README.ja.md">日本語</a> · <a href="README.ru.md">Русский</a></sub>
+
+<div align="center">
+
+<img src="logo.png" alt="Hui Ning IP" width="150">
 
 # PCT Skills · PCT Patent Practice
 
 > *"Ask once. Get a filing-ready PCT practice answer."*
 > *「一句话问清程序，拿回一份能直接用的 PCT 实务方案。」*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](#install)
+[![PCT Members](https://img.shields.io/badge/PCT%20Members-159-green)](https://www.wipo.int/treaties/en/registration/pct/)
+![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
 
-An end-to-end practical skill set for the PCT international application lifecycle — **one parent skill plus five child skills** — for **patent attorneys, corporate IP teams and applicants working across borders**. Not an explainer: it delivers check paths for procedures and deadlines, clause-by-clause verifiable legal sources, a method for reading search and examination conclusions, and formalities for entering the national phase and restoring rights.
+<br>
+
+**An end-to-end practical skill set for the PCT international application lifecycle — one parent skill plus five child skills — for patent attorneys, corporate IP teams and applicants working across borders.**
+
+<br>
+
+Not an explainer: it delivers check paths for procedures and deadlines, clause-by-clause verifiable legal sources, a method for reading search and examination conclusions, and formalities for entering the national phase and restoring rights.
 
 Built on the universal Agent Skills format (`<skill-name>/SKILL.md`); works with any agent that supports skills.
+
+[What it does](#what-it-does) · [Install](#install) · [Core mechanisms](#core-mechanisms) · [Repository layout](#repository-layout) · [Limitations](#limitations)
+
+</div>
+
+---
 
 ## Install
 
@@ -67,8 +86,16 @@ PCT-SKILLS/
 │   └── pct-administrative/
 ├── scripts/
 │   └── sync_to_local.py       # one-command sync to your local skills directory
-├── README.md
-└── LICENSE
+├── README.md                        # 简体中文 (default)
+├── README.zh-Hant.md                # 繁體中文
+├── README.en.md                     # English (this file)
+├── README.fr.md                     # Français
+├── README.es.md                     # Español
+├── README.ar.md                     # العربية (RTL)
+├── README.ja.md                     # 日本語
+├── README.ru.md                     # Русский
+├── LICENSE                          # MIT License
+└── logo.png                         # Brand mark (README header)
 ```
 
 - Skill directories are strictly **2 levels deep** (`SKILL.md` + `references/`), compliant with the official WorkBuddy skill structure;

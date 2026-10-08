@@ -1,16 +1,35 @@
-🌐 [简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
+<sub>🌐 <a href="README.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.en.md">English</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <b>العربية</b> · <a href="README.ja.md">日本語</a> · <a href="README.ru.md">Русский</a></sub>
+
+<div align="center" dir="rtl">
+
+<img src="logo.png" alt="Hui Ning IP" width="150">
 
 # PCT Skills · الممارسة العملية لبراءات PCT
 
 > *«سؤال واحد. وجواب عملي جاهز للوضع في الملف.»*
 > *"Ask once. Get a filing-ready PCT practice answer."*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](#التثبيت)
+[![PCT Members](https://img.shields.io/badge/PCT%20Members-159-green)](https://www.wipo.int/treaties/en/registration/pct/)
+![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
 
-مجموعة مهارات عملية تغطي دورة الطلب الدولي PCT كاملة — **مهارة أم واحدة + 5 مهارات فرعية** — موجّهة إلى **وكلاء البراءات وفرق الملكية الفكرية في الشركات والمودعين في الخارج**. ليست شرحًا تعريفيًا، بل مسارات تحقق من الإجراءات والمواعيد، ومصادر قانونية قابلة للتحقق بندًا بندًا، ومنهجية لقراءة نتائج البحث والفحص، وإجراءات الدخول إلى المرحلة الوطنية واستعادة الحقوق.
+<br>
+
+**مجموعة مهارات عملية تغطي دورة الطلب الدولي PCT كاملة — مهارة أم واحدة + 5 مهارات فرعية — موجّهة إلى وكلاء البراءات وفرق الملكية الفكرية في الشركات والمودعين في الخارج.**
+
+<br>
+
+ليست شرحًا تعريفيًا، بل مسارات تحقق من الإجراءات والمواعيد، ومصادر قانونية قابلة للتحقق بندًا بندًا، ومنهجية لقراءة نتائج البحث والفحص، وإجراءات الدخول إلى المرحلة الوطنية واستعادة الحقوق.
 
 مبنية على صيغة Agent Skills القياسية (`<skill-name>/SKILL.md`)؛ وتعمل مع أي وكيل يدعم skills.
+
+[ما الذي يقدمه](#ما-الذي-يقدمه) · [التثبيت](#التثبيت) · [الآليات الأساسية](#الآليات-الأساسية) · [هيكل المستودع](#هيكل-المستودع) · [حدود الاستخدام](#حدود-الاستخدام)
+
+</div>
+
+---
 
 ## التثبيت
 
@@ -67,8 +86,16 @@ PCT-SKILLS/
 │   └── pct-administrative/
 ├── scripts/
 │   └── sync_to_local.py       # مزامنة بأمر واحد إلى مجلد المهارات المحلي
-├── README.md
-└── LICENSE
+├── README.md                        # 简体中文 (الافتراضي)
+├── README.zh-Hant.md                # 繁體中文
+├── README.en.md                     # English
+├── README.fr.md                     # Français
+├── README.es.md                     # Español
+├── README.ar.md                     # العربية (هذا الملف)
+├── README.ja.md                     # 日本語
+├── README.ru.md                     # Русский
+├── LICENSE                          # رخصة MIT
+└── logo.png                         # شعار الشركة (أعلى ملف README)
 ```
 
 - مجلدات المهارات **مستويان بالضبط** (`SKILL.md` + `references/`)، وفق هيكل مهارات WorkBuddy الرسمي؛

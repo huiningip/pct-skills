@@ -1,16 +1,35 @@
-🌐 [简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
+<sub>🌐 <a href="README.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.en.md">English</a> · <a href="README.fr.md">Français</a> · <b>Español</b> · <a href="README.ar.md">العربية</a> · <a href="README.ja.md">日本語</a> · <a href="README.ru.md">Русский</a></sub>
+
+<div align="center">
+
+<img src="logo.png" alt="Hui Ning IP" width="150">
 
 # PCT Skills · Práctica de patentes PCT
 
 > *«Una sola pregunta. Una respuesta de práctica PCT lista para el expediente.»*
 > *"Ask once. Get a filing-ready PCT practice answer."*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](#instalación)
+[![PCT Members](https://img.shields.io/badge/PCT%20Members-159-green)](https://www.wipo.int/treaties/en/registration/pct/)
+![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
 
-Un conjunto de habilidades prácticas que cubre todo el ciclo de la solicitud internacional PCT — **una habilidad principal + 5 habilidades secundarias** — para **agentes de patentes, equipos de PI de empresa y solicitantes en el extranjero**. No es una explicación divulgativa: ofrece rutas de verificación de trámites y plazos, fuentes jurídicas verificables cláusula por cláusula, un método para leer las conclusiones de búsqueda y examen, y los trámites de entrada y restablecimiento de derechos en la fase nacional.
+<br>
+
+**Un conjunto de habilidades prácticas que cubre todo el ciclo de la solicitud internacional PCT — una habilidad principal + 5 habilidades secundarias — para agentes de patentes, equipos de PI de empresa y solicitantes en el extranjero.**
+
+<br>
+
+No es una explicación divulgativa: ofrece rutas de verificación de trámites y plazos, fuentes jurídicas verificables cláusula por cláusula, un método para leer las conclusiones de búsqueda y examen, y los trámites de entrada y restablecimiento de derechos en la fase nacional.
 
 Basado en el formato universal Agent Skills (`<skill-name>/SKILL.md`); funciona con cualquier agente compatible con skills.
+
+[Qué hace](#qué-hace) · [Instalación](#instalación) · [Mecanismos clave](#mecanismos-clave) · [Estructura del repositorio](#estructura-del-repositorio) · [Limitaciones](#limitaciones)
+
+</div>
+
+---
 
 ## Instalación
 
@@ -67,8 +86,16 @@ PCT-SKILLS/
 │   └── pct-administrative/
 ├── scripts/
 │   └── sync_to_local.py       # sincronización en un comando a tu directorio local de skills
-├── README.md
-└── LICENSE
+├── README.md                        # 简体中文 (predeterminado)
+├── README.zh-Hant.md                # 繁體中文
+├── README.en.md                     # English
+├── README.fr.md                     # Français
+├── README.es.md                     # Español (este archivo)
+├── README.ar.md                     # العربية (RTL)
+├── README.ja.md                     # 日本語
+├── README.ru.md                     # Русский
+├── LICENSE                          # Licencia MIT
+└── logo.png                         # Marca de la empresa (cabecera del README)
 ```
 
 - Los directorios de habilidades tienen estrictamente **2 niveles** (`SKILL.md` + `references/`), conforme a la estructura oficial de skills de WorkBuddy;

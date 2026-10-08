@@ -1,16 +1,35 @@
-🌐 [简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
+<sub>🌐 <a href="README.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.en.md">English</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ar.md">العربية</a> · <a href="README.ja.md">日本語</a> · <b>Русский</b></sub>
+
+<div align="center">
+
+<img src="logo.png" alt="Hui Ning IP" width="150">
 
 # PCT Skills · Практика по патентам PCT
 
 > *«Один вопрос. Практический ответ по PCT, готовый для дела.»*
 > *"Ask once. Get a filing-ready PCT practice answer."*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)](https://github.com/huiningip/PCT-SKILLS)
+[![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](#установка)
+[![PCT Members](https://img.shields.io/badge/PCT%20Members-159-green)](https://www.wipo.int/treaties/en/registration/pct/)
+![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
 
-Практический набор навыков для полного цикла международной заявки PCT — **родительский навык + 5 дочерних навыков** — для **патентных поверенных, корпоративных IP-команд и заявителей, работающих за рубежом**. Это не популярный ликбез: маршруты проверки процедур и сроков, правовые источники с проверкой по пунктам, методика чтения выводов поиска и экспертизы, а также формальности входа в национальную фазу и восстановления прав.
+<br>
+
+**Практический набор навыков для полного цикла международной заявки PCT — родительский навык + 5 дочерних навыков — для патентных поверенных, корпоративных IP-команд и заявителей, работающих за рубежом.**
+
+<br>
+
+Это не популярный ликбез: маршруты проверки процедур и сроков, правовые источники с проверкой по пунктам, методика чтения выводов поиска и экспертизы, а также формальности входа в национальную фазу и восстановления прав.
 
 Основано на универсальном формате Agent Skills (`<skill-name>/SKILL.md`); работает с любым агентом, поддерживающим skills.
+
+[Что он умеет](#что-он-умеет) · [Установка](#установка) · [Ключевые механизмы](#ключевые-механизмы) · [Структура репозитория](#структура-репозитория) · [Область применения и ограничения](#область-применения-и-ограничения)
+
+</div>
+
+---
 
 ## Установка
 
@@ -67,8 +86,16 @@ PCT-SKILLS/
 │   └── pct-administrative/
 ├── scripts/
 │   └── sync_to_local.py       # синхронизация одной командой в локальный каталог навыков
-├── README.md
-└── LICENSE
+├── README.md                        # 简体中文 (по умолчанию)
+├── README.zh-Hant.md                # 繁體中文
+├── README.en.md                     # English
+├── README.fr.md                     # Français
+├── README.es.md                     # Español
+├── README.ar.md                     # العربية (RTL)
+├── README.ja.md                     # 日本語
+├── README.ru.md                     # Русский (этот файл)
+├── LICENSE                          # Лицензия MIT
+└── logo.png                         # Знак компании (в начале README)
 ```
 
 - Каталоги навыков строго **2 уровня** (`SKILL.md` + `references/`) — в соответствии с официальной структурой навыков WorkBuddy;

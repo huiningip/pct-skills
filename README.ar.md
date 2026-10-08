@@ -1,4 +1,4 @@
-🌐 简体中文 · 繁體中文 · English · Français · Español · العربية · 日本語 · Русский
+🌐 [简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
 
 # PCT Skills · الممارسة العملية لبراءات PCT
 

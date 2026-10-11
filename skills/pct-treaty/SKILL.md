@@ -25,7 +25,7 @@ update-log: |
     ★ 本版本号同时作为 **pct 家族统一版本号基准**：同日全家族 6 技能统一至 2.6.1（技能包发布与同步维护需要）。
   2.6.0 (2026-09-21) 按官方技能开发文档（open.workbuddy.cn/docs/skill）合规化 + 法源／链接订正：
     - frontmatter 补齐 display_name / display_name_en / description_zh / description_en / category，并补
-      related-skills 与 allowed-tools 未启用理由；update-log 精简为最近三版，完整历史迁 references/changelog.md；
+      related-skills 与 allowed-tools 未启用理由；update-log 精简为最近三版；
     - 标题层级修正：原「技能知识库」误用同级 H1（全文出现两个 H1），降为 H2 并同步下移各级子标题；
     - ★★ 法源订正（三处）：「20 个月进入期限」原表述为 Art.22 原始文本，并附「未同时选择第 II 章时」的
       误导性条件句；依条约第 22 条编者注更正为 Art.22(1) 不兼容通知——更短期限仅对已通知国际局其国内法
@@ -38,7 +38,6 @@ update-log: |
     - references 引用语法标准化：反引号路径改为官方文档规定的 @references/ 语法（2 处）。
   2.5.0 (2026-08-26) 落地 CNIPA 受理 PCT 国际阶段官方费用标准：新增 13 项人民币费用金额表 + 动态维护声明（非永久、以 CNIPA 最新公布为准），并明确区分 CNIPA 自收费用与选定 EPO 为 ISA 的中欧试点代收标准。
   2.4.0 (2026-08-23) 收录 WIPO《PCT实施细则》中文官方译本（2026-01-01 生效）结构化转换 + 错漏修复：新增 references/PCT_REGULATIONS_2026.md；订正 Part 4 基础条内容全错并补漏列的 Rule 81、Rule 83；订正 Part 6 标题；澄清费用表为 WIPO 独立文件、非细则 96 条之一。
-  —— 2.3.0 及更早版本历史见 @references/changelog.md。
 ---
 
 # PCT条约与实施细则核心

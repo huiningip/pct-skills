@@ -36,7 +36,7 @@ update-log: |
     —— 本技能输出的 WO/ISA／IPER 结论在国家阶段（PPH、争辩与修改）有直接承接，此前未声明该链路。
   2.3.0 (2026-09-21) 按官方技能开发文档（open.workbuddy.cn/docs/skill）合规化 + 法源订正：
     - frontmatter 补齐 display_name / display_name_en / description_zh / description_en / category，并补
-      related-skills 与 allowed-tools 未启用理由；update-log 精简为最近三版，完整历史迁 references/changelog.md；
+      related-skills 与 allowed-tools 未启用理由；update-log 精简为最近三版；
     - 标题层级修正：原「技能知识库」误用同级 H1（全文出现两个 H1），降为 H2 并同步下移各级子标题；
     - ★★ 法源订正：引文分类所引节号原写「Admin Instructions 505/506/507」，但 Section 506 在现行
       PCT/AI/26 中已标为 [Deleted]；经 ISPE §16.65 与 references/ADMIN_INSTRUCTIONS_2026.md 双向交叉验证，
@@ -48,7 +48,6 @@ update-log: |
     - references 引用语法标准化：反引号路径改为官方文档规定的 @references/ 语法（1 处）。
   2.2.1 (2026-08-23) 复查发现 ISPE Ch.10 发明单一性示例数描述与官方不符（原写"54个Example"），经核验官方 MD 实际为 48 个独立 Example（编号 1–48，全文出现 63 次含重复引用）；全局 7 处修正为"48个Example（2026版ISPE/14 Ch.10 编号1–48）"。
   2.2.0 (2026-08-22) 依据 ISPE_2026.md 原文逐章对照核查，修复 7 项错漏：发明单一性案例数全局更正（11处）；PART VI 第18章标题改「收到要求书后的初步程序」；第三方意见小节移至 PART V(Ch.17) 并明确真实法源；引文分类补 D/L 两类至 9 类；WO/ISA/IPER 栏位补 Box VIII（栏 I–VII → I–VIII）；IPER 时限精确化（Rule 69.2 三条件取最晚）；补充国际检索(SISA)归位至 Ch.15 §15.75–15.97。
-  —— 2.1.0 及更早版本历史见 @references/changelog.md。
 ---
 
 # PCT国际检索与初步审查指南

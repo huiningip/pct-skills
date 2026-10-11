@@ -51,7 +51,7 @@ update-log: |
       Due）；已更正，并注 Rule 16bis 延期缴费情形见 Section 320。
   2.3.2 (2026-09-21) 按官方技能开发文档（open.workbuddy.cn/docs/skill）合规化 + 法源订正：
     - frontmatter 补齐 display_name / display_name_en / description_zh / description_en / category，并补
-      related-skills 与 allowed-tools 未启用理由；update-log 精简为最近三版，更早历史迁 references/changelog.md；
+      related-skills 与 allowed-tools 未启用理由；update-log 精简为最近三版；
     - 标题层级修正：原「技能知识库」误用同级 H1（全文出现两个 H1），降为 H2 并同步下移各级子标题；
     - ★★★ 法源订正（规则第 10 条）：「申请日三条件（Art.11）」原写「①明确或暗示指明国家 ②指定申请人
       ③包含说明书 + 权利要求 + 费用缴纳」，与条约第 11 条(1) 原文不符——**费用缴纳并非申请日条件**（费用
@@ -68,7 +68,6 @@ update-log: |
     - references 引用语法标准化：反引号路径改为官方文档规定的 @references/ 语法（4 处）。
   2026-08-26 第 11 章费用补引 CNIPA 2026 年 9 月标准指针：交叉引用 pct-treaty 费用体系章节「CNIPA 受理 PCT 国际阶段费用标准（2026年9月生效 · 当前标准，将不定期调整）」；本技能第 11 章保持受理局处理层面的期限与流转框架，具体金额以 pct-treaty 该（动态）标准为准，并标注「以 CNIPA 最新公布为准」。
   2026-08-23 收录《PCT行政规程》原文结构化转换（references/ADMIN_INSTRUCTIONS_2026.md，WIPO PCT/AI/26 as in force 2026-01-01，105 页 / 8 Part / 180 Section[含 18 变体] / 8 Annex / 零乱码），重写「行政规程（8 部分）」结构表以与官方原文标题逐一对应；并修复结构表系统性偏差（Part 1/2/3/4/5/7 的节号归类与 [Deleted] 标注）。
-  —— 更早的日期条目历史见 @references/changelog.md（本技能早期 update-log 采用日期条目制而非版本号制，版本号与日期条目的对应关系未在原档留存，故按原样归档、**不回填**，避免编造）。
 ---
 
 # PCT行政规程与受理局实务
